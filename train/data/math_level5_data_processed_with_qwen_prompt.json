@@ -1,0 +1,82 @@
+[
+    {
+        "input": "<|im_start|>system\nPlease reason step by step, and put your final answer within \\boxed{}.<|im_end|>\n<|im_start|>user\nFind the sum of the coefficients in the polynomial $3(3x^{7} + 8x^4 - 7) + 7(x^5 - 7x^2 + 5)$ when it is fully simplified.<|im_end|>\n<|im_start|>assistant",
+        "answer": "5",
+        "gt_answer": "5",
+        "subject": "Algebra",
+        "level": 4,
+        "question": "Find the sum of the coefficients in the polynomial $3(3x^{7} + 8x^4 - 7) + 7(x^5 - 7x^2 + 5)$ when it is fully simplified.",
+        "ground_truth_answer": "5",
+        "target": "5"
+    },
+    {
+        "input": "<|im_start|>system\nPlease reason step by step, and put your final answer within \\boxed{}.<|im_end|>\n<|im_start|>user\nA mother purchases 5 blue plates, 2 red plates, 2 green plates, and 1 orange plate. How many ways are there for her to arrange these plates for dinner around her circular table if she doesn't want the 2 green plates to be adjacent?<|im_end|>\n<|im_start|>assistant",
+        "answer": "588",
+        "gt_answer": "588",
+        "subject": "Counting & Probability",
+        "level": 5,
+        "question": "A mother purchases 5 blue plates, 2 red plates, 2 green plates, and 1 orange plate. How many ways are there for her to arrange these plates for dinner around her circular table if she doesn't want the 2 green plates to be adjacent?",
+        "ground_truth_answer": "588",
+        "target": "588"
+    },
+    {
+        "input": "<|im_start|>system\nPlease reason step by step, and put your final answer within \\boxed{}.<|im_end|>\n<|im_start|>user\nHow many positive integers, not exceeding 100, are multiples of 2 or 3 but not 4?<|im_end|>\n<|im_start|>assistant",
+        "answer": "42",
+        "gt_answer": "42",
+        "subject": "Number Theory",
+        "level": 5,
+        "question": "How many positive integers, not exceeding 100, are multiples of 2 or 3 but not 4?",
+        "ground_truth_answer": "42",
+        "target": "42"
+    },
+    {
+        "input": "<|im_start|>system\nPlease reason step by step, and put your final answer within \\boxed{}.<|im_end|>\n<|im_start|>user\nA function $f$ is defined on the complex numbers by $f(z)=(a+bi)z,$ where $a$ and $b$ are positive numbers. This function has the property that for each complex number $z$, $f(z)$ is equidistant from both $z$ and the origin. Given that $|a+bi|=8$, find $b^2.$<|im_end|>\n<|im_start|>assistant",
+        "answer": "\\frac{255}{4}",
+        "gt_answer": "\\frac{255}{4}",
+        "subject": "Intermediate Algebra",
+        "level": 5,
+        "question": "A function $f$ is defined on the complex numbers by $f(z)=(a+bi)z,$ where $a$ and $b$ are positive numbers. This function has the property that for each complex number $z$, $f(z)$ is equidistant from both $z$ and the origin. Given that $|a+bi|=8$, find $b^2.$",
+        "ground_truth_answer": "\\frac{255}{4}",
+        "target": "\\frac{255}{4}"
+    },
+    {
+        "input": "<|im_start|>system\nPlease reason step by step, and put your final answer within \\boxed{}.<|im_end|>\n<|im_start|>user\nThe equation $y = \\frac{x + A}{Bx + C}$, where $A,B,$ and $C$ are integers, is shown below. What is $A + B + C$?\n\n[asy]\nimport graph; size(8.14cm); real lsf=0.5; pen dps=linewidth(0.7)+fontsize(10); defaultpen(dps); pen ds=black; real xmin=-2.52,xmax=5.62,ymin=-4.28,ymax=3.32;\n\npen cqcqcq=rgb(0.75,0.75,0.75);\n\n/*grid*/ pen gs=linewidth(0.7)+cqcqcq+linetype(\"2 2\"); real gx=1,gy=1;\nfor(real i=ceil(xmin/gx)*gx;i<=floor(xmax/gx)*gx;i+=gx) draw((i,ymin)--(i,ymax),gs); for(real i=ceil(ymin/gy)*gy;i<=floor(ymax/gy)*gy;i+=gy) draw((xmin,i)--(xmax,i),gs);\n\nLabel laxis; laxis.p=fontsize(10);\n\nxaxis(\"$x$\",xmin,xmax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); yaxis(\"$y$\",ymin,ymax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); real f1(real x){return (-x+4)/(x-2);} draw(graph(f1,-2.51,1.99),linewidth(1.2),Arrows(4)); draw(graph(f1,2.01,5.61),linewidth(1.2),Arrows(4));\n\nclip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle);\n\n[/asy]<|im_end|>\n<|im_start|>assistant",
+        "answer": "-3",
+        "gt_answer": "-3",
+        "subject": "Algebra",
+        "level": 5,
+        "question": "The equation $y = \\frac{x + A}{Bx + C}$, where $A,B,$ and $C$ are integers, is shown below. What is $A + B + C$?\n\n[asy]\nimport graph; size(8.14cm); real lsf=0.5; pen dps=linewidth(0.7)+fontsize(10); defaultpen(dps); pen ds=black; real xmin=-2.52,xmax=5.62,ymin=-4.28,ymax=3.32;\n\npen cqcqcq=rgb(0.75,0.75,0.75);\n\n/*grid*/ pen gs=linewidth(0.7)+cqcqcq+linetype(\"2 2\"); real gx=1,gy=1;\nfor(real i=ceil(xmin/gx)*gx;i<=floor(xmax/gx)*gx;i+=gx) draw((i,ymin)--(i,ymax),gs); for(real i=ceil(ymin/gy)*gy;i<=floor(ymax/gy)*gy;i+=gy) draw((xmin,i)--(xmax,i),gs);\n\nLabel laxis; laxis.p=fontsize(10);\n\nxaxis(\"$x$\",xmin,xmax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); yaxis(\"$y$\",ymin,ymax,Ticks(laxis,Step=1.0,Size=2,NoZero),Arrows(6),above=true); real f1(real x){return (-x+4)/(x-2);} draw(graph(f1,-2.51,1.99),linewidth(1.2),Arrows(4)); draw(graph(f1,2.01,5.61),linewidth(1.2),Arrows(4));\n\nclip((xmin,ymin)--(xmin,ymax)--(xmax,ymax)--(xmax,ymin)--cycle);\n\n[/asy]",
+        "ground_truth_answer": "-3",
+        "target": "-3"
+    },
+    {
+        "input": "<|im_start|>system\nPlease reason step by step, and put your final answer within \\boxed{}.<|im_end|>\n<|im_start|>user\nThe number $5\\,41G\\,507\\,2H6$ is divisible by $72.$ If $G$ and $H$ each represent a single digit, what is the sum of all distinct possible values of the product $GH?$ (Count each possible value of $GH$ only once, even if it results from multiple $G,$ $H$ pairs.)<|im_end|>\n<|im_start|>assistant",
+        "answer": "59",
+        "gt_answer": "59",
+        "subject": "Number Theory",
+        "level": 5,
+        "question": "The number $5\\,41G\\,507\\,2H6$ is divisible by $72.$ If $G$ and $H$ each represent a single digit, what is the sum of all distinct possible values of the product $GH?$ (Count each possible value of $GH$ only once, even if it results from multiple $G,$ $H$ pairs.)",
+        "ground_truth_answer": "59",
+        "target": "59"
+    },
+    {
+        "input": "<|im_start|>system\nPlease reason step by step, and put your final answer within \\boxed{}.<|im_end|>\n<|im_start|>user\nKeiko tosses one penny and Ephraim tosses two pennies. What is the probability that Ephraim gets the same number of heads that Keiko gets?  Express your answer as a common fraction.<|im_end|>\n<|im_start|>assistant",
+        "answer": "\\frac{3}{8}",
+        "gt_answer": "\\frac{3}{8}",
+        "subject": "Prealgebra",
+        "level": 5,
+        "question": "Keiko tosses one penny and Ephraim tosses two pennies. What is the probability that Ephraim gets the same number of heads that Keiko gets?  Express your answer as a common fraction.",
+        "ground_truth_answer": "\\frac{3}{8}",
+        "target": "\\frac{3}{8}"
+    },
+    {
+        "input": "<|im_start|>system\nPlease reason step by step, and put your final answer within \\boxed{}.<|im_end|>\n<|im_start|>user\nA parabola with equation $y=x^2+bx+c$ passes through the points $(-1,-11)$ and $(3,17)$. What is $c$?<|im_end|>\n<|im_start|>assistant",
+        "answer": "-7",
+        "gt_answer": "-7",
+        "subject": "Algebra",
+        "level": 5,
+        "question": "A parabola with equation $y=x^2+bx+c$ passes through the points $(-1,-11)$ and $(3,17)$. What is $c$?",
+        "ground_truth_answer": "-7",
+        "target": "-7"
+    }
+]

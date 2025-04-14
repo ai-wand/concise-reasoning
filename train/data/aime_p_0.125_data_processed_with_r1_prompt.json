@@ -1,0 +1,34 @@
+[
+    {
+        "input": "Let $ABC$ be a triangle inscribed in circle $\\omega$. Let the tangents to $\\omega$ at $B$ and $C$ intersect at point $D$, and let $\\overline{AD}$ intersect $\\omega$ at $P$. If $AB=5$, $BC=9$, and $AC=10$, $AP$ can be written as the form $\\frac{m}{n}$, where $m$ and $n$ are relatively prime integers. Find $m + n$.\n\n[asy] import olympiad;  unitsize(15);  pair A, B, C, D, E, F, P, O;  C = origin; A = (10,0); B = (7.8, 4.4899); draw(A--B--C--cycle); draw(A..B..C..cycle, red+dotted);  O = circumcenter(A, B, C);  E = rotate(90,B) * (O); F = rotate(90,C) * (O);  D = IP(B..E + (B-E)*4, C..F + (C-F)*-3);  draw(B--D--C--D--A);  P = IP(D..A, A..B..C);  dot(A); dot(B); dot(C); dot(D); dot(P); label(\"$A$\", A, dir(335)); label(\"$B$\", B, dir(65)); label(\"$C$\", C, dir(200)); label(\"$D$\", D, dir(135)); label(\"$P$\", P, dir(235)); [/asy] Let's think step by step and output the final answer within \\boxed{}.\n",
+        "answer": "113",
+        "gt_answer": "113",
+        "question": "Let $ABC$ be a triangle inscribed in circle $\\omega$. Let the tangents to $\\omega$ at $B$ and $C$ intersect at point $D$, and let $\\overline{AD}$ intersect $\\omega$ at $P$. If $AB=5$, $BC=9$, and $AC=10$, $AP$ can be written as the form $\\frac{m}{n}$, where $m$ and $n$ are relatively prime integers. Find $m + n$.\n\n[asy] import olympiad;  unitsize(15);  pair A, B, C, D, E, F, P, O;  C = origin; A = (10,0); B = (7.8, 4.4899); draw(A--B--C--cycle); draw(A..B..C..cycle, red+dotted);  O = circumcenter(A, B, C);  E = rotate(90,B) * (O); F = rotate(90,C) * (O);  D = IP(B..E + (B-E)*4, C..F + (C-F)*-3);  draw(B--D--C--D--A);  P = IP(D..A, A..B..C);  dot(A); dot(B); dot(C); dot(D); dot(P); label(\"$A$\", A, dir(335)); label(\"$B$\", B, dir(65)); label(\"$C$\", C, dir(200)); label(\"$D$\", D, dir(135)); label(\"$P$\", P, dir(235)); [/asy]",
+        "ground_truth_answer": "113",
+        "target": "113"
+    },
+    {
+        "input": "Let $p$ be the least prime number for which there exists a positive integer $n$ such that $n^{4}+1$ is divisible by $p^{2}$. Find the least positive integer $m$ such that $m^{4}+1$ is divisible by $p^{2}$. Let's think step by step and output the final answer within \\boxed{}.\n",
+        "answer": "110",
+        "gt_answer": "110",
+        "question": "Let $p$ be the least prime number for which there exists a positive integer $n$ such that $n^{4}+1$ is divisible by $p^{2}$. Find the least positive integer $m$ such that $m^{4}+1$ is divisible by $p^{2}$.",
+        "ground_truth_answer": "110",
+        "target": "110"
+    },
+    {
+        "input": "Let $ABCD$ be a tetrahedron such that $AB=CD= \\sqrt{41}$, $AC=BD= \\sqrt{80}$, and $BC=AD= \\sqrt{89}$. There exists a point $I$ inside the tetrahedron such that the distances from $I$ to each of the faces of the tetrahedron are all equal. This distance can be written in the form $\\frac{m \\sqrt n}{p}$, where $m$, $n$, and $p$ are positive integers, $m$ and $p$ are relatively prime, and $n$ is not divisible by the square of any prime. Find $m+n+p$. Let's think step by step and output the final answer within \\boxed{}.\n",
+        "answer": "104",
+        "gt_answer": "104",
+        "question": "Let $ABCD$ be a tetrahedron such that $AB=CD= \\sqrt{41}$, $AC=BD= \\sqrt{80}$, and $BC=AD= \\sqrt{89}$. There exists a point $I$ inside the tetrahedron such that the distances from $I$ to each of the faces of the tetrahedron are all equal. This distance can be written in the form $\\frac{m \\sqrt n}{p}$, where $m$, $n$, and $p$ are positive integers, $m$ and $p$ are relatively prime, and $n$ is not divisible by the square of any prime. Find $m+n+p$.",
+        "ground_truth_answer": "104",
+        "target": "104"
+    },
+    {
+        "input": "Let $\\triangle ABC$ have circumcenter $O$ and incenter $I$ with $\\overline{IA}\\perp\\overline{OI}$, circumradius $13$, and inradius $6$. Find $AB\\cdot AC$. Let's think step by step and output the final answer within \\boxed{}.\n",
+        "answer": "468",
+        "gt_answer": "468",
+        "question": "Let $\\triangle ABC$ have circumcenter $O$ and incenter $I$ with $\\overline{IA}\\perp\\overline{OI}$, circumradius $13$, and inradius $6$. Find $AB\\cdot AC$.",
+        "ground_truth_answer": "468",
+        "target": "468"
+    }
+]

@@ -1,0 +1,24 @@
+NOTICE
+
+This repo contains modified code originally licensed under the Apache License, Version 2.0.
+
+Original Work:
+    Project: OpenRLHF
+    Source:  https://github.com/OpenRLHF/OpenRLHF
+    License: Apache License 2.0 — https://www.apache.org/licenses/LICENSE-2.0
+
+Modifications:
+    This code has been significantly modified by Mehdi Fatemi and Banafsheh Rafiee.
+    Modifications include but are not limited to:
+      - Refactored for compatibility 
+      - Adapted for new architecture 
+      - Applied simplifications and removal of several files and classes and functions
+      - Add more code and functionlities as for the need of the current project 
+
+IMPORTANT:
+
+Only the following folder is subject to the Apache License, Version 2.0.
+
+./train/openrlhf
+
+The rest of this project, including "./eval" and "./stats", is licensed under the MIT License — https://opensource.org/licenses/MIT.

@@ -1,0 +1,34 @@
+[
+    {
+        "input": "Each vertex of a regular octagon is independently colored either red or blue with equal probability. The probability that the octagon can then be rotated so that all of the blue vertices end up at positions where there were originally red vertices is $\\tfrac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. What is $m+n$? Let's think step by step and output the final answer within \\boxed{}.\n",
+        "answer": "371",
+        "gt_answer": "371",
+        "question": "Each vertex of a regular octagon is independently colored either red or blue with equal probability. The probability that the octagon can then be rotated so that all of the blue vertices end up at positions where there were originally red vertices is $\\tfrac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. What is $m+n$?",
+        "ground_truth_answer": "371",
+        "target": "371"
+    },
+    {
+        "input": "Alice and Bob play the following game. A stack of $n$ tokens lies before them. The players take turns with Alice going first. On each turn, the player removes either $1$ token or $4$ tokens from the stack. Whoever removes the last token wins. Find the number of positive integers $n$ less than or equal to $2024$ for which there exists a strategy for Bob that guarantees that Bob will win the game regardless of Alice's play. Let's think step by step and output the final answer within \\boxed{}.\n",
+        "answer": "809",
+        "gt_answer": "809",
+        "question": "Alice and Bob play the following game. A stack of $n$ tokens lies before them. The players take turns with Alice going first. On each turn, the player removes either $1$ token or $4$ tokens from the stack. Whoever removes the last token wins. Find the number of positive integers $n$ less than or equal to $2024$ for which there exists a strategy for Bob that guarantees that Bob will win the game regardless of Alice's play.",
+        "ground_truth_answer": "809",
+        "target": "809"
+    },
+    {
+        "input": "Eight circles of radius $34$ are sequentially tangent, and two of the circles are tangent to $AB$ and $BC$ of triangle $ABC$, respectively. $2024$ circles of radius $1$ can be arranged in the same manner. The inradius of triangle $ABC$ can be expressed as $\\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$. Let's think step by step and output the final answer within \\boxed{}.\n",
+        "answer": "197",
+        "gt_answer": "197",
+        "question": "Eight circles of radius $34$ are sequentially tangent, and two of the circles are tangent to $AB$ and $BC$ of triangle $ABC$, respectively. $2024$ circles of radius $1$ can be arranged in the same manner. The inradius of triangle $ABC$ can be expressed as $\\frac{m}{n}$, where $m$ and $n$ are relatively prime positive integers. Find $m+n$.",
+        "ground_truth_answer": "197",
+        "target": "197"
+    },
+    {
+        "input": "Define $f(x)=|| x|-\\tfrac{1}{2}|$ and $g(x)=|| x|-\\tfrac{1}{4}|$. Find the number of intersections of the graphs of \\[y=4 g(f(\\sin (2 \\pi x))) \\quad\\text{ and }\\quad x=4 g(f(\\cos (3 \\pi y))).\\] Let's think step by step and output the final answer within \\boxed{}.\n",
+        "answer": "385",
+        "gt_answer": "385",
+        "question": "Define $f(x)=|| x|-\\tfrac{1}{2}|$ and $g(x)=|| x|-\\tfrac{1}{4}|$. Find the number of intersections of the graphs of \\[y=4 g(f(\\sin (2 \\pi x))) \\quad\\text{ and }\\quad x=4 g(f(\\cos (3 \\pi y))).\\]",
+        "ground_truth_answer": "385",
+        "target": "385"
+    }
+]

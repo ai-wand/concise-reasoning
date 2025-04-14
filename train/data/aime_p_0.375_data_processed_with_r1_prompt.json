@@ -1,0 +1,34 @@
+[
+    {
+        "input": "Consider the paths of length $16$ that follow the lines from the lower left corner to the upper right corner on an $8\\times 8$ grid. Find the number of such paths that change direction exactly four times, as in the examples shown below. Let's think step by step and output the final answer within \\boxed{}.\n",
+        "answer": "294",
+        "gt_answer": "294",
+        "question": "Consider the paths of length $16$ that follow the lines from the lower left corner to the upper right corner on an $8\\times 8$ grid. Find the number of such paths that change direction exactly four times, as in the examples shown below.",
+        "ground_truth_answer": "294",
+        "target": "294"
+    },
+    {
+        "input": "Let $A$, $B$, $C$, and $D$ be points on the hyperbola $\\frac{x^2}{20}- \\frac{y^2}{24} = 1$ such that $ABCD$ is a rhombus whose diagonals intersect at the origin. Find the greatest real number that is less than $BD^2$ for all such rhombi. Let's think step by step and output the final answer within \\boxed{}.\n",
+        "answer": "480",
+        "gt_answer": "480",
+        "question": "Let $A$, $B$, $C$, and $D$ be points on the hyperbola $\\frac{x^2}{20}- \\frac{y^2}{24} = 1$ such that $ABCD$ is a rhombus whose diagonals intersect at the origin. Find the greatest real number that is less than $BD^2$ for all such rhombi.",
+        "ground_truth_answer": "480",
+        "target": "480"
+    },
+    {
+        "input": "A list of positive integers has the following properties:\n\n\\bullet The sum of the items in the list is 30.\n\n\\bullet The unique mode of the list is 9.\n\n\\bullet The median of the list is a positive integer that does not appear in the list itself.\n\nFind the sum of the squares of all the items in the list. Let's think step by step and output the final answer within \\boxed{}.\n",
+        "answer": "236",
+        "gt_answer": "236",
+        "question": "A list of positive integers has the following properties:\n\n\\bullet The sum of the items in the list is 30.\n\n\\bullet The unique mode of the list is 9.\n\n\\bullet The median of the list is a positive integer that does not appear in the list itself.\n\nFind the sum of the squares of all the items in the list.",
+        "ground_truth_answer": "236",
+        "target": "236"
+    },
+    {
+        "input": "Alice chooses a set $A$ of positive integers. Then Bob lists all finite nonempty sets $B$ of positive integers with the property that the maximum element of $B$ belongs to $A$. Bob's list has 2024 sets. Find the sum of the elements of A. Let's think step by step and output the final answer within \\boxed{}.\n",
+        "answer": "55",
+        "gt_answer": "55",
+        "question": "Alice chooses a set $A$ of positive integers. Then Bob lists all finite nonempty sets $B$ of positive integers with the property that the maximum element of $B$ belongs to $A$. Bob's list has 2024 sets. Find the sum of the elements of A.",
+        "ground_truth_answer": "55",
+        "target": "55"
+    }
+]
