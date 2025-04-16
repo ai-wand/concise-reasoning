@@ -4,7 +4,7 @@
 
 # Concise Reasoning via Reinforcement Learning
 
-[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.05185)
+[![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.05185) [![Blog](https://img.shields.io/badge/blog-0A66C2?style=for-the-badge&logo=ghost&logoColor=white)](https://wand.ai/blog/from-prolixity-to-concise-reasoning)
 
 </div>
 
