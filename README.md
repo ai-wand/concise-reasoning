@@ -34,9 +34,9 @@ This repository provides the codebase to validate our conclusions, also to repro
 
 
 ## News
-- **[2025/04/16]** The publish the blog post: https://wand.ai/blog/from-prolixity-to-concise-reasoning
-- **[2025/04/16]** We release the training/eval code.
-- **[2025/04/07]** We release our paper. 
+- **[2025/04/16]** We published the blog: https://wand.ai/blog/from-prolixity-to-concise-reasoning
+- **[2025/04/16]** We released the training/eval code.
+- **[2025/04/07]** We released our paper. 
 
 
 ## Quick Start
@@ -53,8 +53,7 @@ git clone https://github.com/ai-wand/concise-reasoning
 cd concise-reasoning
 ```
 
-2. Set up an environment. If you do not use conda, you can do the following:
-
+2. Set up an environment:
 ```
 pip install --upgrade pip
 pip install virtualenv
@@ -71,6 +70,8 @@ pip install -e .
 OpenRLHF utilizes a complex structure with a deep hierarchy and numerous class dependencies. To make the code more understandable, we have removed and simplified several files and classes in this repo. 
 
 Moreover, since we have started this project, OpenRLHF has evolved significantly. the code here is based on an older version of OpenRLHF. We plan to provide codebase for the new OpenRLHF and with minimal intervensions to also facilitate transitioning to other codebases.
+
+This code has been developed by the Reasoning and Wisdom Team at Wand X (fundamental research arm of Wand AI). The work is done by [Banafsheh Rafiee](https://www.linkedin.com/in/banafsheh-rafiee-40a249266) and [Mehdi Fatemi](https://www.linkedin.com/in/fatemi). 
 
 ### Reproducing Results
 The minimum hardware requirement for training is 6 H/A100-80G GPUs.
