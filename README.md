@@ -34,7 +34,9 @@ This repository provides the codebase to validate our conclusions, also to repro
 
 
 ## News
-- **[2025/04/14]** We release the training/eval code and our paper. 
+- **[2025/04/16]** The publish the blog post: https://wand.ai/blog/from-prolixity-to-concise-reasoning
+- **[2025/04/16]** We release the training/eval code.
+- **[2025/04/07]** We release our paper. 
 
 
 ## Quick Start
